@@ -180,7 +180,7 @@ const DashboardOverview = () => {
             </div>
           ) : (
             <div className="h-[280px] flex flex-col items-center justify-center text-[#A1A1AA]">
-              <TrendEmpty size={48} className="mb-4 opacity-50" />
+              <ChartLineDown size={48} className="mb-4 opacity-50" />
               <p>No activity data yet</p>
               <p className="text-sm">Start using SYNQRA to see insights</p>
             </div>
